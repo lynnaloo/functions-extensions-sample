@@ -1,4 +1,4 @@
-# functions-test
+# Functions Extensions Samples
 
 RabbitMQ Extension
 
