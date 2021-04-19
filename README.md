@@ -29,7 +29,7 @@ RabbitMQ Extension
 * Set your queue names in your `function.json` bindings:
 
 ```
-  "queueName": "your-queue",
+"queueName": "your-queue",
 ```
 
 Note: If you are running your function locally, then your Rabbit MQ instance needs to be running locally as well.
