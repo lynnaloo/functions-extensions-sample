@@ -1,0 +1,11 @@
+{
+  "bindings": [
+      {
+          "name": "queueItem",
+          "type": "rabbitMQTrigger",
+          "direction": "in",
+          "queueName": "fx-queue-orders",
+          "connectionStringSetting": "rabbitMQConnectionAppSetting"
+      }
+  ]
+}
