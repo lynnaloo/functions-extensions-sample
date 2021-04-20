@@ -4,7 +4,7 @@ RabbitMQ Extension
 
 * First read [this](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-rabbitmq).
 
-* [Setup a RabbitMQ Endpoint](https://github.com/Azure/azure-functions-rabbitmq-extension/wiki/Setting-up-a-RabbitMQ-Endpoint)
+* [Setup a RabbitMQ Endpoint](https://github.com/Azure/azure-functions-rabbitmq-extension/wiki/Setting-up-a-RabbitMQ-Endpoint) (See Note***)
 
 * Set your queue/endpoint in `host.json`:
 
@@ -13,7 +13,7 @@ RabbitMQ Extension
 "connectionString": "<your-connection-string>"
 ```
 
-* Set your `local.settings.json`:
+* Setup your `local.settings.json`:
 
 ```
 {
@@ -26,10 +26,10 @@ RabbitMQ Extension
 }
 ```
 
-* Set your queue names in your `function.json` bindings:
+* Set your queue name in your `function.json` bindings:
 
 ```
 "queueName": "your-queue",
 ```
 
-Note: If you are running your function locally, then your Rabbit MQ instance needs to be running locally as well.
+Note***: If you are running your function locally, then your Rabbit MQ instance needs to be running on a local Kubernetes cluster.
