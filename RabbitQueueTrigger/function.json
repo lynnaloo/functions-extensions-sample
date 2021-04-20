@@ -2,7 +2,7 @@
   "bindings": [
       {
           "name": "queueItem",
-          "type": "rabbitMQTrigger",
+          "type": "RabbitMQTrigger",
           "direction": "in",
           "queueName": "fx-queue-orders",
           "connectionStringSetting": "rabbitMQConnectionAppSetting"
