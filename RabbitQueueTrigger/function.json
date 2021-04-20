@@ -1,11 +1,12 @@
 {
   "bindings": [
-      {
-          "name": "queueItem",
-          "type": "rabbitMQTrigger",
-          "direction": "in",
-          "queueName": "fx-queue-orders",
-          "connectionStringSetting": "rabbitMQConnectionAppSetting"
-      }
+    {
+      "name": "item",
+      "type": "RabbitMQTrigger",
+      "direction": "in",
+      "queueName": "linda",
+      "connectionStringSetting": "rabbitMQConnectionAppSetting",
+      "port": 5672
+    }
   ]
 }
